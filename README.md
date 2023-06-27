@@ -37,4 +37,4 @@ However, keep in mind that clipboard access in WSL may depend on the specific ve
 ## Add bash function to call python script
 - Add .gen_pass to user root dir
 - Add source ~/.gen_pass to .bashrc or wherever you add user function calls to unix startup file
-- Call function with standard arguments by executing `gen_pass` in terminal
+- Call function with standard arguments by executing `gen_pass` in terminal. The first password will be copied to clipboard
