@@ -33,3 +33,8 @@ python3 generate_password.py -n 5 -l 20 -c
 The script uses the `clip.exe` utility to copy the password to the Windows clipboard. This should work both in native Windows environments and within the Windows Subsystem for Linux (WSL).
 
 However, keep in mind that clipboard access in WSL may depend on the specific version and configuration of WSL. In some cases, you might need to manually enable clipboard access or use a different method to copy text to the clipboard.
+
+## Add bash function to call python script
+- Add .gen_pass to user root dir
+- Add source ~/.gen_pass to .bashrc or wherever you add user function calls to unix startup file
+- Call function with standard arguments by executing `gen_pass` in terminal
