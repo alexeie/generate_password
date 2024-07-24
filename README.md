@@ -2,7 +2,9 @@
 
 This script generates random passwords. It allows customization of the password length and the number of passwords to generate. By default, the first password generated is copied to the clipboard.
 
-## Usage
+## Usage / Installation
+
+.gen_pass bash script should be moved up one directory, and executed with the python script inside child directory "generate_password"
 
 You can run the script from the command line using the following syntax:<br>
 ```python
