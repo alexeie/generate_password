@@ -15,7 +15,7 @@ python3 generate_password.py [-n NUMBER] [-l LENGTH] [-c]
 ### Options:
 
 - `-n NUMBER`, `--number NUMBER`: Specify the number of passwords to generate. Default is 1.
-- `-l LENGTH`, `--length LENGTH`: Specify the length of the passwords. Default is 15.
+- `-l LENGTH`, `--length LENGTH`: Specify the length of the passwords. Default is 12.
 - `-c`, `--clipboard`: Use this option to prevent copying the first password to the clipboard.
 
 For example, to generate 5 passwords of length 20 and copy the first one to the clipboard, you would run:<br>
