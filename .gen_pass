@@ -1,14 +1,5 @@
 #!/bin/bash
 
-#function gen_pass {
-#  local len=${2:-20}
-#  local num=${1:-3}
-
-#  source github/generate_password/venv/bin/activate
-#  python3 github/generate_password/generate_password.py -l "$len" -n "$num"
-#  deactivate
-#}
-
 # Function: gen_pass
 # Description: 
 #   Generates a strong, random password using the `generate_password.py` script.
